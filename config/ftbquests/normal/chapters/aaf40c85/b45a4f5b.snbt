@@ -1,0 +1,19 @@
+{
+	title: "Tool Station",
+	x: -6.5d,
+	y: -5.5d,
+	description: "Assemble all parts into a tool to use.",
+	text: [
+		"You can use the tool station to assemble all the parts from a part builder into a tool."
+	],
+	dependencies: [
+		"38085368"
+	],
+	tasks: [{
+		uid: "712d2fc6",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	}]
+}

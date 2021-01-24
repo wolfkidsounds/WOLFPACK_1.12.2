@@ -1,0 +1,29 @@
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\tinker_recipes.zs}
+[SERVER_STARTED][SERVER][ERROR] recipes\tinker_recipes.zs:6 > unexpected end of file - ; expected
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing recipes\tinker_recipes.zs:6 -- ; expected
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 332ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\tinker_recipes.zs}
+[SERVER_STARTED][SERVER][ERROR] recipes\tinker_recipes.zs:6 > unexpected end of file - ; expected
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing recipes\tinker_recipes.zs:6 -- ; expected
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 1ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes\tinker_recipes.zs}
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 93ms

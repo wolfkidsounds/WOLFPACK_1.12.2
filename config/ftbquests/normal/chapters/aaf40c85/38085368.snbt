@@ -1,0 +1,29 @@
+{
+	title: "Part Builder",
+	x: -7.5d,
+	y: -5.5d,
+	description: "Use your stencils and materials here.",
+	text: [
+		"You can use the stencils inside this part builder.",
+		"",
+		"Create single parts and later combine them use the tool station."
+	],
+	dependencies: [
+		"68b6c04c"
+	],
+	tasks: [{
+		uid: "f3e17345",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 3s
+				}
+			},
+			Damage: 2s
+		}]
+	}]
+}

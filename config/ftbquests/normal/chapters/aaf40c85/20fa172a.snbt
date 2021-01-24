@@ -1,0 +1,65 @@
+{
+	title: "Hit a tree",
+	icon: "minecraft:sapling",
+	x: -10.0d,
+	y: -5.5d,
+	description: "You can not bring a tree down!",
+	text: [
+		"You should punch a tree.",
+		"However use the branches instead."
+	],
+	tasks: [{
+		uid: "e8159a5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "barkWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any barkWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "fbfe0823",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stickWood"
+				}
+			}
+		}]
+	},
+	{
+		uid: "c057596a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustWood"
+				}
+			}
+		}]
+	}]
+}

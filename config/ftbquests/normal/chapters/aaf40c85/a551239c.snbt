@@ -1,0 +1,66 @@
+{
+	title: "Tooled Up",
+	x: -5.0d,
+	y: -5.5d,
+	description: "Basic Tool Heads",
+	text: [
+		"These are the basic elements you should craft and later combine to tools.",
+		"",
+		"Tip: You can use shards as material too."
+	],
+	dependencies: [
+		"38085368",
+		"b45a4f5b",
+		"68b6c04c"
+	],
+	tasks: [{
+		uid: "781756c7",
+		type: "item",
+		items: [{
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	},
+	{
+		uid: "b167ed74",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	},
+	{
+		uid: "fcdcfc89",
+		type: "item",
+		items: [{
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	},
+	{
+		uid: "7e93cbca",
+		type: "item",
+		items: [{
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	},
+	{
+		uid: "e2c0c93e",
+		type: "item",
+		items: [{
+			id: "tconstruct:kama_head",
+			tag: {
+				Material: "wood"
+			}
+		}]
+	}]
+}

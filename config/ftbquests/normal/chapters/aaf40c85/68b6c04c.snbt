@@ -1,0 +1,31 @@
+{
+	title: "Stencil Table",
+	x: -8.5d,
+	y: -5.5d,
+	description: "Use this to create stencils for tools",
+	text: [
+		"Get into \"Tinkers Construct\" using a stencil table.",
+		"",
+		"Create Stencils that you can use further to create tools.",
+		"",
+		"Tip: You can recycle patterns."
+	],
+	dependencies: [
+		"20fa172a"
+	],
+	tasks: [{
+		uid: "65dc1327",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 1s
+				}
+			},
+			Damage: 1s
+		}]
+	}]
+}
